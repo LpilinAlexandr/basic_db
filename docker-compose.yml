@@ -1,0 +1,37 @@
+version: '3.9'
+name: basic_db
+
+
+services:
+  postgres_db:
+    image: postgres
+
+    environment:
+      POSTGRES_DB: test_db
+      POSTGRES_PASSWORD: "qwerty"
+
+    volumes:
+      - ./dumps:/dumps
+      - postgres_data:/var/lib/postgresql/data
+
+    ports:
+      - "5444:5432"
+
+  mysql_db:
+    image: mysql
+
+    environment:
+      MYSQL_DATABASE: test_db
+      MYSQL_ROOT_PASSWORD: "qwerty"
+
+    volumes:
+      - ./dumps:/dumps
+      - mysql_data:/var/lib/mysql
+
+    ports:
+      - "3306:3306"
+
+
+volumes:
+  mysql_data:
+  postgres_data:
