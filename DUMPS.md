@@ -2,7 +2,7 @@
 
 Сделать полный dump
 ```shell
-pg_dump -U <имя_пользователя> <имя_базы_данных> > <путь_к_файлу_дампа.sql>
+pg_dump -U postgres test_db.megaschema > /dumps/psql_dump_1.sql
 ```
 
 Сделать dump одной таблицы
@@ -12,7 +12,7 @@ pg_dump -U <имя_пользователя> -t <имя_таблицы> <имя_
 
 Загрузить полный dump
 ```shell
-psql -U <имя_пользователя> -d <имя_базы_данных> < <путь_к_файлу_дампа.sql>
+psql -U postgres -d test_db < /dumps/psql_dump_1.sql
 ```
 
 Загрузить dump одной таблицы
@@ -24,7 +24,7 @@ psql -U <имя_пользователя> -d <имя_базы_данных> -t <
 
 Сделать полный dump
 ```shell
-mysqldump -u <имя_пользователя> -p <имя_базы_данных> > <путь_к_файлу_дампа.sql>
+mysqldump -u root -p megaschema > /dumps/mysql_dump_1.sql
 ```
 
 Сделать dump одной таблицы

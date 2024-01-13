@@ -10,8 +10,8 @@
 * DDL и DML
   * [DDL](/DDL.md)
   * [DML](/DML.md)
-* [Индексы и анализ запроса](/INDEXES.md)
 * [Dump базы в Postgres и MySQL](/DUMPS.md)
+* [Индексы и анализ запроса](/INDEXES.md)
 
 
 Сравнение PostgreSQL и MySQL

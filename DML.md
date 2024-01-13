@@ -15,8 +15,8 @@ GROUP BY
 HAVING 
 ORDER BY
 LIMIT 10
-
 ```
+
 2. **INSERT INTO** — Вставка новых данных в таблицу
 ```sql
 INSERT INTO megaschema.employee ("name", surname, patronymic, date_of_employment)

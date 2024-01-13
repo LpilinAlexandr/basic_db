@@ -65,3 +65,13 @@ VALUES('Иван', 'Иванов', 'Иванович', '03-01-2024');
 
 COMMIT; -- фиксация (подтверждение) транзакции
 ```
+
+
+## Изменить уровень изоляции транзакций. Пример:
+
+```sql
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+```
