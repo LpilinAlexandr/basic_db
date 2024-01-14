@@ -20,3 +20,5 @@
 - [Официальная документация MySQL](https://dev.mysql.com/doc/refman/8.2/en/)
 - [Статья на AWS](https://aws.amazon.com/ru/compare/the-difference-between-mysql-vs-postgresql/)
 - [Статья на хабре](https://habr.com/ru/companies/otus/articles/722304/)
+- [Что такое табличное пространство](https://www.postgresql.org/docs/current/manage-ag-tablespaces.html)
+- [Переменные в PostgreSQL из дампа](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-DEFAULT-TABLE-ACCESS-METHOD)
